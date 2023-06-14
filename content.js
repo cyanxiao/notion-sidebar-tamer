@@ -1,4 +1,18 @@
-const observer = new MutationObserver((mutationsList, observer) => {
+const sidebarInitObserver = new MutationObserver((mutationsList, observer) => {
+  // Check if "notion-sidebar" class is present in the target element
+  const targetElement = document.querySelector(".notion-sidebar");
+  if (targetElement && targetElement.classList.contains("notion-sidebar")) {
+    observer.disconnect();
+    const expandedObserver = new MutationObserver(expandedObserverCallback);
+    expandedObserver.observe(targetElement, {
+      subtree: false,
+      childList: false,
+      attributes: true,
+    });
+  }
+});
+
+function expandedObserverCallback(mutationsList, observer) {
   // Check if "notion-sidebar" class is present in the target element
   const targetElement = document.querySelector(".notion-sidebar");
   if (targetElement && targetElement.classList.contains("notion-sidebar")) {
@@ -20,7 +34,7 @@ const observer = new MutationObserver((mutationsList, observer) => {
         : 500
     );
   }
-});
+}
 
 // Start observing changes to the target element and its descendants
-observer.observe(document.body, { subtree: true, childList: true });
+sidebarInitObserver.observe(document.body, { subtree: true, childList: true });

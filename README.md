@@ -20,10 +20,18 @@ Please refer to Chrome's [documentation](https://developer.chrome.com/docs/exten
 
 ## Comparison
 
-### Before
+<p align="center">
+<img src="./images/before.gif" style="width:400px" />
+</p>
 
-![Before](./images/before.gif)
+<p align="center">
+Before
+</p>
 
-### After
+<p align="center">
+<img src="./images/after.gif" style="width:400px" />
+</p>
 
-![After](./images/after.gif)
+<p align="center">
+After
+</p>

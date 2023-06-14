@@ -9,5 +9,8 @@
       "matches": ["https://www.notion.so/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "images/128.png"
+  }
 }

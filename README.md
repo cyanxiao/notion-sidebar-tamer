@@ -16,7 +16,7 @@ The sidebar in Notion is a great way to navigate between pages, but it can be di
 
 ## Installation
 
-Please refer to Chrome's [documentation](https://developer.chrome.com/docs/extensions/mv3/getstarted/#manifest) on how to install an extension.
+Please refer to Chrome's [documentation](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) on how to install an extension.
 
 ## Comparison
 

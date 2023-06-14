@@ -3,7 +3,7 @@
   "name": "Notion Siderbar Tamer",
   "description": "Base Level Extension",
   "version": "0.1",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://www.notion.so/*"],

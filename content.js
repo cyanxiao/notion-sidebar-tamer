@@ -13,7 +13,6 @@ const sidebarInitObserver = new MutationObserver((mutationsList, observer) => {
 });
 
 function expandedObserverCallback(mutationsList, observer) {
-  // Check if "notion-sidebar" class is present in the target element
   const targetElement = document.querySelector(".notion-sidebar");
   if (targetElement && targetElement.classList.contains("notion-sidebar")) {
     const sidebar = document.getElementsByClassName("notion-sidebar")[0];

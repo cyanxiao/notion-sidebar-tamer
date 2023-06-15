@@ -4,9 +4,9 @@ const sidebarInitObserver = new MutationObserver((mutationsList, observer) => {
     observer.disconnect();
     const expandedObserver = new MutationObserver(expandedObserverCallback);
     expandedObserver.observe(targetElement, {
-      subtree: false,
-      childList: false,
-      attributes: true,
+      subtree: true,
+      childList: true,
+      attributes: false,
     });
   }
 });

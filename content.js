@@ -7,6 +7,7 @@ const sidebarInitObserver = new MutationObserver((mutationsList, observer) => {
       subtree: false,
       childList: false,
       attributes: true,
+      attributeFilter: ["style"],
     });
   }
 });

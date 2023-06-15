@@ -32,7 +32,7 @@ Please refer to Chrome's [documentation](https://developer.chrome.com/docs/exten
 ## Comparison
 
 <p align="center">
-<img src="./images/before.gif" style="width:400px" />
+<img src="./screenshots/before.gif" style="width:400px" />
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ Before
 </p>
 
 <p align="center">
-<img src="./images/after.gif" style="width:400px" />
+<img src="./screenshots/after.gif" style="width:400px" />
 </p>
 
 <p align="center">

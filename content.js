@@ -11,6 +11,8 @@ const sidebarInitObserver = new MutationObserver((mutationsList, observer) => {
   }
 });
 
+let previousExpanded = null;
+
 function expandedObserverCallback(mutationsList, observer) {
   const targetElement = document.querySelector(".notion-sidebar");
   if (targetElement) {
@@ -19,11 +21,16 @@ function expandedObserverCallback(mutationsList, observer) {
       localStorage.getItem("LRU:KeyValueStore2:sidebar")
     );
     const expanded = sidebarData["value"]["expanded"];
-    requestAnimationFrame(() => {
-      if (sidebar && sidebar.style) {
-        sidebar.style.display = expanded ? "block" : "none";
-      }
-    });
+
+    if (expanded !== previousExpanded) {
+      requestAnimationFrame(() => {
+        if (sidebar && sidebar.style) {
+          sidebar.style.display = expanded ? "block" : "none";
+        }
+      });
+
+      previousExpanded = expanded;
+    }
   }
 }
 

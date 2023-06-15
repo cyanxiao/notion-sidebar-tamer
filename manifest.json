@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Notion Sidebar Tamer",
   "description": "Disable the hover sidebar in Notion.",
-  "version": "0.1",
+  "version": "0.2",
   "host_permissions": ["https://www.notion.so/*"],
   "content_scripts": [
     {

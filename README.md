@@ -19,7 +19,7 @@ Disable the hover sidebar in Notion.
 
 The sidebar in Notion is a great way to navigate between pages, but it can be distracting when you're working between windows. This Chrome extension disables the appearing on hover of the sidebar.
 
-## Installation
+## Manual Installation
 
 Please refer to Chrome's [documentation](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) on how to install an extension.
 

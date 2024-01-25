@@ -46,3 +46,9 @@ Before
 <p align="center">
 After
 </p>
+
+## Roadmap 🚧
+
+- [ ] Migrate to [web-ext](https://wxt.dev/) for development
+- [ ] Auto publish to Chrome Web Store
+- [ ] Add support for Firefox

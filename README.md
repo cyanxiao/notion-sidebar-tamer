@@ -52,3 +52,4 @@ After
 - [ ] Migrate to [WXT](https://wxt.dev/) for development
 - [ ] Auto publish to Chrome Web Store
 - [ ] Add support for Firefox
+- [ ] Apply [dom-mutator](https://github.com/growthbook/dom-mutator) to improve the performance and the behavior of the burger button

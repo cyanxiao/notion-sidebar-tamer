@@ -49,6 +49,6 @@ After
 
 ## Roadmap 🚧
 
-- [ ] Migrate to [web-ext](https://wxt.dev/) for development
+- [ ] Migrate to [WXT](https://wxt.dev/) for development
 - [ ] Auto publish to Chrome Web Store
 - [ ] Add support for Firefox
